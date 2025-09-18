@@ -24,7 +24,7 @@ plt.figure(figsize=(12, 6))
 plt.subplot(2, 1, 1)
 plt.plot(t, signal)
 plt.title("Time-Domain Signal")
-plt.xlabel("Time (s)")
+plt.xlabel("Time(s)")
 plt.ylabel("Amplitude")
 
 # Plot the frequency spectrum (positive frequencies only)

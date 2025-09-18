@@ -3,8 +3,7 @@ def wired(num):
     print("wired")
   else:
      print("not wired")
-n=int(input("Enter number"))
-wired(n)
-   
+
+wired(115)   
 
 

@@ -1,7 +1,7 @@
 import pandas as pd
 
 df=pd.DataFrame({
-  Name: ['Alice','Bob'],
+  Names: ['Alice','Bob'],
   Marks: [295,345]
 })
 

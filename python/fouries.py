@@ -1,9 +1,9 @@
-def wired(num):
-  if num<6 and num >100:
-    print("wired")
-  else:
-     print("not wire d")
+import pandas as pd
 
-wired(115)   
+df=pd.DataFrame({
+  Name: ['Alice',''Bob']
+  Marks: [295,345]
+})
 
+print(df)
 

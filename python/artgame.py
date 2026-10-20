@@ -1,3 +1,3 @@
 import turtle as tt
-showturtle()
+tt.showturtle()
 

@@ -7,6 +7,6 @@ for quetion in quetion_data:
   question_answer=question['answer']
   new_question=Question(question_text,question_answer)
   question_banl.append(new_question)
-print(question_bank)
+
 
   

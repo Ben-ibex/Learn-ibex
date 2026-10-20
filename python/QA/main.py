@@ -1,9 +1,9 @@
-from question_model import Quetion
+from question_model import Question
 from data import question_data
 from quiz_brain import QuizBrain
 
 quetion_bank=[]
-for quetion in quetion_data:
+for question in question_data:
   question_text=question['text']
   question_answer=question['answer']
   new_question=Question(question_text,question_answer)

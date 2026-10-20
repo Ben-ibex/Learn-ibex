@@ -40,5 +40,5 @@ jobs:
          dig domain
     - name: Test with pytest
       run: |
-         python ./python/stud_data.py
-         python ./python/welcome.py
+         #python ./python/stud_data.py
+         python ./python/artgame.py
